@@ -3,7 +3,8 @@ import urllib
 from subprocess import call
 
 font_path = "{0}/.fonts".format(os.getenv("HOME"))
-font_list = ["Monaco-Linux.ttf", "Menlo-Regular.ttf"]
+# font_list = ["Monaco-Linux.ttf", "Menlo-Regular.ttf"]
+font_list = ["Inconsolata.otf"]
 url = "https://github.com/egorhm/linux-fonts/raw/master/fonts"
 
 
